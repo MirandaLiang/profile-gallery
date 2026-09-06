@@ -12,8 +12,6 @@ accessible full-screen photo viewer.
 Built as a self-contained React + TypeScript component with design tokens and a
 CSS Module — no framework lock-in, no external UI dependencies.
 
-![Profile screen and photo viewer](docs/preview.png)
-
 ## What's inside
 
 ```
