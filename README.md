@@ -1,5 +1,10 @@
 # Profile Gallery
 
+‼️NOTE: This repository is an AI-assisted, code-ready prototype meant to validate interactions, test UI components in the browser, and accelerate developer handoff.
+
+Demo View from my portfolio
+https://www.mirandaliang.com/ai-design-experiment
+
 An interactive profile screen with a tap-to-enlarge photo gallery, ported from
 the reference design. Dark theme, serif display name, 2-column grid, and an
 accessible full-screen photo viewer.
