@@ -1,0 +1,47 @@
+/**
+ * Design tokens — single source of truth for the Profile Gallery.
+ *
+ * These map 1:1 to the values in HANDOFF.md. Consumers on a Tailwind
+ * codebase can wire these into `theme.extend` (see HANDOFF.md → "Tailwind
+ * mapping"); consumers on plain CSS can import this file directly.
+ */
+:root {
+  /* ---- Color ---- */
+  --pg-color-bg:          #000000;
+  --pg-color-text:        #ffffff;
+  --pg-color-text-muted:  #8e8e93; /* iOS secondary label */
+  --pg-color-text-dim:    #636366; /* iOS tertiary label  */
+  --pg-color-link:        #5b8def;
+  --pg-color-pill-bg:     #ffffff;
+  --pg-color-hairline:    rgba(255, 255, 255, 0.08);
+  --pg-color-tile-base:   #0d0d0f;
+  --pg-color-scrim:       rgba(0, 0, 0, 0.92);
+
+  /* ---- Typography ---- */
+  --pg-font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype",
+                   Palatino, Georgia, serif;
+  --pg-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+                  system-ui, sans-serif;
+  --pg-font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji",
+                   sans-serif;
+
+  --pg-text-name: 30px;   /* profile name  */
+  --pg-text-body: 15px;   /* meta + bio    */
+  --pg-text-cta:  16px;   /* pill button   */
+  --pg-text-tile: 16px;   /* tile title    */
+  --pg-text-sub:  13px;   /* tile caption  */
+
+  /* ---- Radius ---- */
+  --pg-radius-tile: 14px;
+  --pg-radius-pill: 999px;
+  --pg-radius-media: 16px;
+
+  /* ---- Spacing ---- */
+  --pg-gutter: 16px;
+  --pg-tile-gap: 10px;
+  --pg-avatar-size: 108px;
+
+  /* ---- Motion ---- */
+  --pg-ease-emphasis: cubic-bezier(0.22, 1, 0.36, 1);
+  --pg-dur: 260ms;
+}
